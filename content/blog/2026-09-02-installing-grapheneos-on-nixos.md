@@ -1,6 +1,5 @@
 +++
 title = "Installing GrapheneOS on NixOS"
-date = 2026-09-02
 tags = ["GrapheneOS", "NixOS"]
 +++
 
