@@ -12,7 +12,10 @@ build_search_index = false
 [markdown]
 
 [markdown.highlighting]
-theme = "catppuccin-mocha"
+style = "class"
+light_theme = "github-light-high-contrast"
+dark_theme = "github-dark-high-contrast"
+error_on_missing_language = true
 
 [extra]
 # Put all your custom variables here
