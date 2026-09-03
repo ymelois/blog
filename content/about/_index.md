@@ -2,4 +2,4 @@
 template = "about.html"
 +++
 
-TODO: add content
+What is this about?
