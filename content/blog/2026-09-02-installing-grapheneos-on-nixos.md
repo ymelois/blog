@@ -1,5 +1,6 @@
 +++
 title = "Installing GrapheneOS on NixOS"
+description = "Installing GrapheneOS from NixOS using Chromium and WebUSB."
 tags = ["GrapheneOS", "NixOS"]
 +++
 

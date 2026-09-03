@@ -1,4 +1,12 @@
-{% extends "base.html" %} {% block content %}
-<h1 class="title">{{ page.title }}</h1>
-<p class="subtitle"><strong>{{ page.date }}</strong></p>
-{{ page.content | safe }} {% endblock content %}
+{% extends "base.html" %}
+{% block title %}{{ page.title }} | {{ config.title }}{% endblock %}
+{% block description %}{{ page.description | default(value=config.description) }}{% endblock %}
+{% block content %}
+<main>
+    <article>
+        <h1>{{ page.title }}</h1>
+        <p><time datetime="{{ page.date }}">{{ page.date }}</time></p>
+        {{ page.content | safe }}
+    </article>
+</main>
+{% endblock content %}

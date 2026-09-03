@@ -2,6 +2,7 @@
 base_url = "https://youn.dev"
 
 title = "Youn Mélois"
+description = "Personal website and technical articles by Youn Mélois"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = false
