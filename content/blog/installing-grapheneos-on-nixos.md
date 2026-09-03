@@ -1,7 +1,8 @@
----
-title: Installing GrapheneOS on NixOS
-tags: ["GrapheneOS", "NixOS"]
----
++++
+title = "Installing GrapheneOS on NixOS"
+date = 2026-09-02
+tags = ["GrapheneOS", "NixOS"]
++++
 
 I recently bought a Google Pixel 10a and today I received it. I always wanted to
 use GrapheneOS for various reasons I won't detail here, but never had a Pixel
